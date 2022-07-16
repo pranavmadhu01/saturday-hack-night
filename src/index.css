@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing:border-box;
 }
+body{
+  background: url(./images/photo-1553532434-5ab5b6b84993.jpeg);
+  background-color: rgba(0,0,0,0.5);
+  background-size: cover;
+  background-blend-mode: color;
+
+}

@@ -2,17 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./Userview.css";
 export default function Userview() {
   const [datass, setData] = useState([]);
-  const [photo, setPhoto] = useState(" ");
   async function fetchData() {
-    await fetch(
-      `https://api.airtable.com/v0/appT04FLIKFeV89dh/Table%201?api_key=keyZjvD5awctdO1Nc`
-    )
+    await fetch(process.env.REACT_APP_API_KEY)
       .then((response) => {
         return response.json();
       })
       .then((data) => {
         setData(data.records);
-        // setPhoto(data.records[0].fields.photo[0].url);
       });
   }
   console.log(datass);
@@ -25,14 +21,14 @@ export default function Userview() {
         <div className="user-card">
           <img src={dat.fields.photo[0].url} alt="" />
           <div className="card-inner-wrapper">
-            <span>Name:</span>
+            <span className="bold">Name</span>
             <span>{dat.fields.name}</span>
-            <span>College:</span>
+            <span className="bold">College</span>
             <span>{dat.fields.college}</span>
-            <span>Description:</span>
+            <span className="bold">Description</span>
             <span>{dat.fields.description}</span>
-            <span>Mobile:</span>
-            
+            <span className="bold">Mobile</span>
+
             <span>{dat.fields.mobile}</span>
           </div>
         </div>

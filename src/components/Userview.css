@@ -1,36 +1,55 @@
+*{
+  font-family: "poppins",sans-serif;
+}
+
 .user-view-wrapper{
+  padding:50px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(3,1fr);
   place-items: center;
+  gap:50px;
 }
 .user-card{
-  max-width: 300px;
-  min-width: 300px;
-  max-height: 600px;
-  min-height: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content: center;
-  background-color: #F7F9A3;
+  width:100%;
+  max-height:350px;
+  min-height: 350px;
+  place-items: center;
+  display:grid;
+  grid-auto-flow: column;
   padding:20px;
   border-radius: 20px;
   gap:30px;
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  background-blend-mode: color;
+  background-color: rgba(0,0,0,0.3);
+
+
 }
 .user-card>img{
-  width:150px;
-  height: 150px;
-
+  width:200px;
+  height: 200px;
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
+  border: 4px solid white;
 }
 .card-inner-wrapper{
+  background:rgba(0,0,0,0.6);
+  background:rgba(255,255,255,0.6);
+  width:100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #E3E73D;
   padding:20px;
   border-radius: 20px;;
   gap:10px;
+  /* color:white; */
+}
+.bold{
+  font-weight: 900;
+  color:purple;
+  font-size: 1.2rem;
+}
+.text{
+  
 }
