@@ -5,8 +5,16 @@
 }
 body{
   background: url(./images/photo-1553532434-5ab5b6b84993.jpeg);
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   background-size: cover;
   background-blend-mode: color;
 
+  background-attachment: fixed;
+
+}
+::-webkit-scrollbar{
+  width:5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: red;
 }

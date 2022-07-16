@@ -22,7 +22,8 @@
   background: url('../images/bg.jpg');
   background-size: cover;
   background-blend-mode: color;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.8);
+  box-shadow: 0px 6px 6px rgba(255, 0, 0, 0.3);
 
 
 }
@@ -36,18 +37,19 @@
 }
 .card-inner-wrapper{
   background:rgba(0,0,0,0.6);
-  background:rgba(255,255,255,0.6);
+  /* background:rgba(255,255,255,0.6); */
   width:100%;
   display: flex;
   flex-direction: column;
   padding:20px;
   border-radius: 20px;;
   gap:10px;
-  /* color:white; */
+  color:white;
 }
 .bold{
   font-weight: 900;
   color:purple;
+  color:red;
   font-size: 1.2rem;
 }
 .text{
