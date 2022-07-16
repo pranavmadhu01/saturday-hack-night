@@ -10,4 +10,5 @@ and checkout the website:https://airtableuserviewer.netlify.app</p>
 <img src="https://i.postimg.cc/Xq24jZDf/unknown-1.png"></img>
 <h2>#Demo</h2>
 <br></br>
-<video src = "https://www.veed.io/download/299e8bbc-f969-49a9-bda6-dbca7750f65f?source=compressor-sharing">
+<!-- <video src = "https://www.veed.io/download/299e8bbc-f969-49a9-bda6-dbca7750f65f?source=compressor-sharing"> -->
+https://www.loom.com/share/f20b3c88262b40edaf93a28357526360
