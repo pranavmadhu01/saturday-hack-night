@@ -28,8 +28,8 @@
 
 }
 .user-card>img{
-  width:200px;
-  height: 200px;
+  width:150px;
+  height: 150px;
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
@@ -37,8 +37,8 @@
 }
 .card-inner-wrapper{
   background:rgba(0,0,0,0.6);
-  /* background:rgba(255,255,255,0.6); */
-  width:100%;
+  min-width:200px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   padding:20px;
